@@ -1,4 +1,4 @@
-import tasks 
+from app import tasks 
 
 # extract the data from the api and load it to the warehouse
 tasks.extract_load()

@@ -3,7 +3,7 @@ import logging
 import os
 from dotenv import load_dotenv
 import pandas as pd
-import db_ops, models, output_queries
+from . import db_ops, models, output_queries
 
 load_dotenv()
 
