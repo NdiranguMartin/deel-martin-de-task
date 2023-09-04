@@ -1,0 +1,27 @@
+version: '3.7'
+services:
+  apifootball:
+    image: apifootball:latest
+    build:
+      context: .
+    depends_on:
+      - postgres
+    environment:
+      - API_KEY=90378093388ed668741363577ee4b59dd383cc6cd0a5c05ef3ecd76482d3ce07
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - HOST=postgres
+      - PORT=5432
+
+  postgres:
+    image: postgres:latest
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+    ports:
+      - '5438:5432'
