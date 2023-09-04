@@ -28,5 +28,5 @@ repo
 After reading the questions, I made the following assumptions 
 - I only considered one league. All the business questions make sense to be done for one league at a time, such as the 
 league table, and top scorers. The solution can however work for a multiple table leagues (would have to be redesigned to
-accomodate head t head leagues). I chose the English Premier League for this task. 
+accomodate head to head leagues). I chose the English Premier League for this task. 
 - To get the entire league data, I got the data from 2022-08-05 to 2023-05-29
