@@ -20,7 +20,7 @@ To run the application
 
 
 ## App details 
-The app gets matches data from apifootball, stores it in a postgres database, creates facts and dimensions and uses 
+The app gets matches data from apifootball, stores it in a postgres database, creates facts and dimensions (see [model](https://lucid.app/lucidchart/481636ee-f3a7-4a24-bd3f-90e1c764f9df/edit?viewport_loc=-2659%2C-1170%2C5797%2C2052%2C0_0&invitationId=inv_105953f2-786a-4359-b931-7be992520f82)) and uses 
 them to answer some business questions. For more details on the task, see `de-task.pdf` in the root folder of this 
 repo
 
